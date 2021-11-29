@@ -16,8 +16,10 @@ $( window ).on('load', function() {
   if ((window.screen.width / window.screen.height) < 1.77){
 
     video.src = "/static/media/image-background-vertical.mp4";
+    console.log('dasd');
   }
   else{
+    console.log('dasd1');
     video.src = "/static/media/image-background.mp4";
   }
   
