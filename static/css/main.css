@@ -14,7 +14,7 @@ margin: 0;
 #myVideo {
   position: fixed;
   right: 0;
-  bottom: 0;
+  top: 0;
   width: 100%;
   z-index: 0;
 
@@ -48,7 +48,7 @@ background-image: url(/static/media/milky-bae-coming-soon-800.png);
 }
 
 
-
+/*
 * { box-sizing: border-box; }
 .video-background {
   background: #000;
@@ -85,15 +85,25 @@ background-image: url(/static/media/milky-bae-coming-soon-800.png);
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
+*/
 
+@media (min-aspect-ratio: 16/9) {
+  #myVideo  {
+      width:100%;
+      height: auto;
+  }
 
-
+  @media (max-aspect-ratio: 16/9) {
+    #myVideo  { 
+        width:auto;
+        height: 100%;
+    }
+}
 
 @media (max-width:892px){
   .logo{
     width: 100%;
     background-size: contain;
     height: 100%;
-    min-height: 300px;
   }
 }
