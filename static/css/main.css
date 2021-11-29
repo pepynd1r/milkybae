@@ -54,6 +54,10 @@ margin: 0;
 }
 
 @media (max-aspect-ratio: 16/9) {
+  body {
+    background: url(/static/media/image-background-horizontal.png);
+  }
+
   #myVideo { 
       width:auto;
       height: 100%;
