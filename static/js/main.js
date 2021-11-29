@@ -14,8 +14,7 @@ $( document ).ready(function() {
   console.log( "ready!" );
 
 
-  
-$( window ).on('resize', function() {
+
   var video = $('#myVideo');
   if ((window.screen.width / window.screen.height) < 1.77){
     video.html('<source src="/static/media/image-background-vertical.mp4" type="video/mp4"></source>' );
@@ -28,7 +27,7 @@ $( window ).on('resize', function() {
    
   }
   
-});
+
 });
 
 
