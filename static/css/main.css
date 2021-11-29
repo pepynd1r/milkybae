@@ -8,7 +8,7 @@ margin: 0;
     justify-content: center;
     align-items: center;
     min-height: 100%;
-    background: url(/static/media/image-background.png);
+    background: url(/static/media/milky-bae-background.mp4);
     z-index: 2;
 }
 #myVideo {
@@ -25,7 +25,7 @@ margin: 0;
 }
 
 .logo{
-background-image: url(/static/media/milky-bae-coming-soon-800.png);
+    background-image: url(/static/media/milky-bae-coming-soon-800.png);
     width: 800px;
     display: block;
     margin: auto;
@@ -57,7 +57,9 @@ background-image: url(/static/media/milky-bae-coming-soon-800.png);
   #myVideo { 
       width:auto;
       height: 100%;
+
   }
+
 }
 
 
