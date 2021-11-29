@@ -11,7 +11,7 @@
 });
 
 
-$( window ).load(function() {
+$( window ).on('load', function() {
   var video = $('#myVideo');
   if ((window.screen.width / window.screen.height) < 1.77){
 
