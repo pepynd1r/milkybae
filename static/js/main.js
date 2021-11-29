@@ -10,7 +10,11 @@
 
 });
 
+$( document ).ready(function() {
+  console.log( "ready!" );
 
+
+  
 $( window ).on('load', function() {
   var video = $('#myVideo');
   if ((window.screen.width / window.screen.height) < 1.77){
@@ -24,6 +28,10 @@ $( window ).on('load', function() {
   }
   
 });
+});
+
+
+
 
 
 
