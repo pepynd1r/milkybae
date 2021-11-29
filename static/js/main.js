@@ -16,15 +16,16 @@ $( document ).ready(function() {
 
   
 $( window ).on('load', function() {
-  var video = $('#myVideo source');
+  var video = $('#myVideo');
   if ((window.screen.width / window.screen.height) < 1.77){
-
-    video.src = "/static/media/image-background-vertical.mp4";
+    video.html('<source src="/static/media/image-background-vertical.mp4" type="video/mp4"></source>' );
+ 
     console.log('dasd');
   }
   else{
+    video.html('<source src="/static/media/milky-bae-background.mp4" type="video/mp4"></source>' );
     console.log('dasd1');
-    video.src = "/static/media/image-background.mp4";
+   
   }
   
 });
