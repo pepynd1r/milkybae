@@ -87,3 +87,13 @@ background-image: url(/static/media/milky-bae-coming-soon-800.png);
 }
 
 
+
+
+@media (max-width:892px){
+  .logo{
+    width: 100%;
+    background-size: contain;
+    height: 100%;
+    min-height: 300px;
+  }
+}
