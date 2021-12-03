@@ -15,6 +15,7 @@ $( document ).ready(function() {
 
   function isFacebookApp() {
     var ua = navigator.userAgent || navigator.vendor || window.opera;
+    console.log(ua);
     return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
 }
 
