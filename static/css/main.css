@@ -57,6 +57,7 @@ margin: 0;
   body {
     background: url(/static/media/image-background-horizontal.png);
     background-position: top right;
+    height: 100%;
   }
 
   #myVideo { 
