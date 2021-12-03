@@ -34,16 +34,6 @@ isFacebookApp();
   }
   
 
-  if ( video.paused ) {
-      video.play();
-      $(".play").hide();
-      $(".pause").show();
-  } else {
-      video.pause();
-      $(".play").show();
-      $(".pause").hide();
-  } 
-
 });
 
 
