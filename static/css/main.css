@@ -709,3 +709,26 @@ font-size: 12px;
   display:block;
   width:100%;
 }
+
+.MuiContainer-root{
+  margin-top:0px!important;
+
+}
+
+.MuiPaper-root{
+  background-color:#fff0!important;
+}
+
+.jss3{
+  background: #eb2424!important;
+}
+.kMCvzj{
+  content: '';
+  background-image: url(/milkybae/static/media/button-bg.png)!important;
+  background-size: revert;
+  position: absolute;
+  background-position: center;
+  border: 5px solid #fcf800!important;
+  color:#fcf800!important;
+  font-size:23px!important;
+}
