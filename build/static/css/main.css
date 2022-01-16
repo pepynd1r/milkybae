@@ -735,3 +735,14 @@ font-size: 12px;
   font-size:23px!important;
   border-radius: 5px!important;
 }
+.gNketA{
+  content: '';
+  background-image: url(/milkybae/static/media/button-bg.png)!important;
+  background-size: revert;
+  position: absolute;
+  background-position: center;
+  border: 5px solid #fcf800!important;
+  color:#fcf800!important;
+  font-size:23px!important;
+  border-radius: 5px!important;
+}
