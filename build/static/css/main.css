@@ -653,6 +653,7 @@ content: '';
 .menu-icons.story{ background-image: url(/static/media/fairytale.svg); }
 .menu-icons.mint{ background-image: url(/static/media/shopping-cart.svg); }
 .menu-icons.socials{ background-image: url(/static/media/social-media.svg); }
+.menu-icons.rarity{ background-image: url(/static/media/special.svg); }
 
 .tooltip{
   transition:none
